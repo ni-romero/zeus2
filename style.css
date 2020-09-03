@@ -24,8 +24,8 @@ display: flex;
 flex-wrap: wrap;
 }
 .titulo-portada{
-   
-    color: white;
+   text-shadow: 1px 1px 1px rgb(163, 223, 159);;
+ 
     margin: auto;
     font-size: 3rem;
 
