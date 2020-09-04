@@ -24,7 +24,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .titulo-portada{
-   text-shadow: 1px 1px 1px rgb(163, 223, 159);;
+   text-shadow: 1px 1px 1px rgb(163, 223, 159);
  
     margin: auto;
     font-size: 3rem;
@@ -84,6 +84,12 @@ justify-items: center;
     color: black;
     text-align: center;
 }
+.tituloservi{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-align: center; 
+}
 
 .fuenteDos{
     font-family: 'Baloo Chettan 2', cursive;
@@ -116,7 +122,7 @@ background-size: 100% 100%;
 }
 .contacto-mapa{
     background-color:rgba(255, 255, 255, 0.993);
-   height: 100vh;
+ 
 }
 .btn-Contacto{
     background-color:rgba(255, 255, 255, 0.993);
@@ -139,6 +145,7 @@ background-size: 100% 100%;
 }
 .card-header, .cuerpoCard{
     background-color:rgba(255, 255, 255, 0.993)!important;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 .btn-link{
     color:  rgb(62, 185, 5)!important;
@@ -222,7 +229,7 @@ background-size: 100% 100%;
         font-size: 2rem;
     }
     .uno{
-        height: 90vh;
+        height: 80vh;
         padding: 0%!important;
     }
     .softwareFac{
@@ -231,16 +238,17 @@ background-size: 100% 100%;
     .softwareFac2{
         background-image: url(./fondominim2.jpg);
         max-width: 100vw;
-        max-height: 130vh;
+        /* max-height: 130vh; */
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        text-shadow: 1px 1px 1px rgb(163, 223, 159);;
     }
     .contacto-formu{
         height: 90vh;
         max-width: 100vw;
     }
     .contacto-mapa{
-        height: 100vh;
+        /* height: 100vh; */
         max-width: 100vw!important; 
     }
 
@@ -254,7 +262,7 @@ background-size: 100% 100%;
     display: none;
 }
 .servicio-cajaTitulo{
-    height: 150vh;
+    height: 180vh;
 }
 .parrafoServ{
     display: none;
